@@ -1,0 +1,5 @@
+To run:
+	1. In a python interperater import fac_mem
+	2. Run the program by calling fac_mem.run(reference, query, max_dist), where reference is the name of the reference FASTA file, query is the name of query FASTA file, and max_dist is the maximum allowed edit distance to consider a match.
+	3. Optionionally you can specify an output file with the out_file parameter (if none is provided the program will automatically create a file name).
+	4. A verbose mode can be enabled by setting the verbose parameter to True.
